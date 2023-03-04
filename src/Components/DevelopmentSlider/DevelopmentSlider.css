@@ -1,0 +1,107 @@
+.number-slide1,
+.number-slide2,
+.number-slide3,
+.number-slide4,
+.number-slide5,
+.number-slide6 {
+  background: unset;
+  width: unset;
+  height: unset;
+  max-width: unset;
+  min-width: unset;
+}
+.hoverr:hover .zooom {
+  transform: scale(1.1);
+  border-radius: 1rem !important;
+}
+.hoverr:hover .hover-hide {
+  opacity: 1;
+}
+.zooom {
+  transition: all 0.5s;
+}
+.hover-hide {
+  opacity: 0;
+  transition: 0.5s all;
+}
+.color-blue {
+  color: #21275b;
+}
+
+.arrow--left {
+    left: 50px;
+  }
+  
+  .arrow--right {
+    left: auto;
+    right: 70px;
+  }
+  .arrows {
+    width: 50px;
+    height: 50px;
+    font-size: 5rem !important;
+    position: absolute;
+    top: 45%;
+    bottom: 0%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: black;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 1rem !important;
+    border-radius: 50%;
+  }
+.poster-100{
+  padding: 1rem;
+  font-size: .8rem;
+}
+.siz{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 990px) {
+  /* .edit{
+    max-height: 100vh !important;
+  } */
+  .arrow--right{
+    top: 40% !important;
+    right: 10%!important;
+  }
+  .arrow--left{
+    top: 40% !important;
+    left: 10%;
+  }
+  .font-respons{
+    font-size: .7rem !important;
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+  }
+  .hoverr{
+    height: 70%;
+  }
+  .siz{
+    width: 90% !important;
+    height: 100% !important;
+  }
+  .siz2{
+    width: 90% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}

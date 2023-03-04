@@ -1,0 +1,122 @@
+.start-call,.choose-unit{
+    background-color: #21275b;
+    border-radius: 1.75rem;
+    border: 1px solid white;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 0.938rem;
+    padding: 0.563rem 1.375rem;
+    text-decoration: none;
+    /* width: 50%; */
+}
+.bg-icon {
+    background-color: #21275b;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.side-navbar {
+    width: 1.875rem;
+    /* height: 186px; */
+    padding: 2rem 1.5rem;
+    position: fixed;
+    top: 35%;
+    inset-inline-end: 1%;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  .color {
+    color: #21275b;
+  }
+  .z-index{
+    z-index: 100000000000000000000;
+  }
+  .fs{
+    font-size: 0.8rem;
+  }
+  .custom-toggle{
+    background-image: url(../../../public/toggle.svg);
+  }
+  /* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 990px) {
+  
+  .z-index2{
+    z-index:200000000000000000000 ;
+  }
+  .margin{
+    margin-top: 2rem !important;
+    margin-left: 1rem;
+  }
+  .navbar-toggler-icon{
+    font-size: medium;
+  }
+  .remove-padding-mop{
+    padding: 0 !important;
+  }
+  .hide{
+    display: block;
+  }
+  .hide-2{
+    display: none !important;
+  }
+  .mob-hide{
+    display: none !important;
+  }
+  .btn-edit{
+    padding: 0.3rem 0
+  }
+  .bg-blue{
+    background-color: #21275b;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .show{
+    display: block !important;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 990px) { 
+ } */

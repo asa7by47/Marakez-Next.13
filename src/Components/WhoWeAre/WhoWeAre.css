@@ -1,0 +1,7 @@
+.bg-img {
+    background-image: url("../../../public/background.png");
+    background-position: 50%;
+    /* height: 30vh; */
+    width: 100%;
+  }
+  

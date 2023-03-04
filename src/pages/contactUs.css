@@ -1,0 +1,18 @@
+.bg-blue-2{
+    background-color: #21275b;
+}
+textarea{
+    resize: none;
+    outline: unset;
+    background-color: #f9f9fb;
+    border-radius: 10px;
+}
+.z-0{
+    z-index: 0 !important;
+}
+.color{
+    color: #21275b;
+}
+.size{
+    font-size: 0.8rem;
+}

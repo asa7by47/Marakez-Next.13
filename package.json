@@ -1,0 +1,28 @@
+{
+  "name": "final-marakez",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@next/font": "13.1.6",
+    "bootstrap": "^5.2.3",
+    "keen-slider": "^6.8.5",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.2",
+    "typescript": "4.9.5"
+  }
+}
