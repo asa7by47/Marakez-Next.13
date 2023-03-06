@@ -37,7 +37,7 @@
     z-index: 100000000000000000000;
   }
   .fs{
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
   .custom-toggle{
     background-image: url(../../../public/toggle.svg);

@@ -48,6 +48,7 @@ const Navbar = () => {
               className="collapse navbar-collapse d-block"
               id="navbarSupportedContent"
             >
+              <h1>Omar Tamer</h1>
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item border-end">
                   <Link
