@@ -30,14 +30,8 @@ const Gallery = () => {
   });
 
   return (
-    <section className="p-5">
-      <HeaderText customColor="color-blue" bgWhite="gray-bg" text="THE LEADING MIXED-USE DEVELOPER IN EGYPT" />
-
-
-
-
-
-
+    <section className="p-5 removePadding py-5">
+      <HeaderText removePadding="removePadding" customColor="color-blue" bgWhite="gray-bg" text="THE LEADING MIXED-USE DEVELOPER IN EGYPT" />
 
       {/* Desktop View */}
     
@@ -154,9 +148,9 @@ const Gallery = () => {
      {/* End Desktop View */}
      {/* Mobil View */}
       <div className="navigation-wrapper d-none mob-show">
-        <div ref={sliderRef} className="keen-slider mob-height gap-1">
-          <div className="keen-slider__slide  number-slide1 w-100 mob-min-width rounded-4">
-            <div className="w-100 h-100 mob-hover position-relative w-100">
+        <div ref={sliderRef} className="keen-slider mob-height gap-1 h-100 w-90" >
+          <div className="keen-slider__slide  number-slide1 w-75 mob-min-width rounded-4">
+            <div className="w-100 h-100 mob-hover position-relative w-75">
               <Image
                 src={lead1}
                 alt="photo"
@@ -280,7 +274,7 @@ function Arrow(props) {
     <svg
       onClick={props.onClick}
       className={`arrow ${
-        props.left ? "arrow--left" : "arrow--right"
+        props.left ? "arrow--left gallery-left" : "arrow--right gallery-right"
       } ${disabeld}`}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"

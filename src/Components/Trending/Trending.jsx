@@ -32,10 +32,10 @@ const Trending = () => {
   });
 
   return (
-    <section className="bg-image p-5">
+    <section className="bg-image p-5 mop-padding">
       <HeaderText text="TRENDING NOW" customColor="text-white" bgWhite="bg-white" />
-      <div ref={sliderRef} className="keen-slider w-50 m-auto keen-mop">
-        <div className="keen-slider__slide slide1 mob-width">
+      <div ref={sliderRef} className="keen-slider w-50 m-auto keen-mop ">
+        <div className="keen-slider__slide slide1 bg-black">
           <div className="card">
             <Image src={aeon} alt="img" className="w-100 imgg" />
             <div className="card-body  ">

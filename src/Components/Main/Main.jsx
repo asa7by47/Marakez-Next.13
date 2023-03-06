@@ -158,17 +158,19 @@ const Main = () => {
 
       {/* Home Page for Desktop */}
       <div className="bg-black w-100 h-100 position-relative d-flex justify-content-center align-items-center hide-from-phone">
-        <iframe
+       <div className="embed-responsive embed-responsive-21by9 hello">
+       <iframe
           width="100%"
           height="100%"
           src="https://www.youtube.com/embed/vGF22tNJoRI?playlist=vGF22tNJoRI&loop=1&autoplay=1&mute=1&controls=0"
           title="YouTube video player"
           allowFullScreen="allowfullscreen"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          className="border-unset iframe"
+          className="border-unset iframe  embed-responsive-item w-100 h-100"
         ></iframe>
 
-        <div className="search bg-white rounded-5 w-75  py-3">
+       </div>
+        <div className="search bg-white rounded-5 w-75  py-3 d-none-mob">
           <div className="container-fluid p-3">
             <div className="row">
               <div className="col-md-9 hide-2">
@@ -305,25 +307,21 @@ const Main = () => {
             </>
           )}
         </div>
+        
       </div>
+            <div className="text-center mt-2 d-none show-in-mop">
+            <button
+                    className="btn-search rounded-3 border-0 w-75"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample"
+                  >
+                    <BsFacebook className="me-3" /> Search Properties
+                  </button>
 
+            </div>
       {/* End Home Page for Desktop */}
 
-      {/* Home Page for Phones */}
-
-      {/* <div className="contain">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vGF22tNJoRI?playlist=vGF22tNJoRI&loop=1&autoplay=1&mute=1&controls=0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div> */}
-
-      {/* End Home Page for Phones */}
     </section>
   );
 };

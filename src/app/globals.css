@@ -1,4 +1,3 @@
-
 .z-index {
   z-index: 1000000000;
 }
@@ -46,7 +45,7 @@
   color: white;
   width: 25% !important;
 }
-.pointer{
+.pointer {
   cursor: pointer;
 }
 .w-1000 {
@@ -64,7 +63,6 @@
 .css-187mznn-MuiSlider-root {
   color: #21275b !important;
 }
-
 
 .h-40 {
   height: 38%;
@@ -102,14 +100,6 @@
 [class^="slide"],
 [class*=" slide"] {
   background: unset;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
-  /* font-size: 50px; */
-  /* color: #fff; */
-  /* font-weight: 500; */
-  /* height: 500px;
-  max-height: 100vh; */
   height: auto;
   width: 100px !important;
 }
@@ -120,128 +110,53 @@
 .h-10 {
   height: 10% !important;
 }
-.border-unset{
+.border-unset {
   border: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 600px) {
+  .responsive-font {
+    font-size: 1px !important;
+  }
+}
 
 @media (max-width: 990px) {
-  .bg-blue{
-    background-color: #21275b;
+  .d-none-mob {
+    display: none !important;
   }
-  .mob-font{
-    font-size: x-small !important;
+  .show-in-mop {
+    display: block !important;
   }
-  .iframe{
-    width: 62.5rem !important;
-    height: 16.875rem !important;
+  .responsive-font {
+    font-size: 0.8rem !important;
   }
-  .w-mob{
-    width: 50% !important;
+  .mtop {
+    margin-top: 0.5rem !important;
   }
-  .navbar-toggler {
-    margin-left: auto !important;
-    border: unset !important;
-    padding: 1rem;
-    color: #21275b !important;
-  }
-
-  .remove-padding-mop {
+  .removing-padding-bottom{
     padding: 0 !important;
   }
-  .hide {
-    display: block;
-  }
-  .search {
-    background: unset !important;
-  }
-  .btn-search{
-    position: absolute;
-    left: 0%;
-    right: 50%;
-    top: 220%;
-    width: 100%;
-  }
-  iframe{
-    height: 50vh !important;
-  }
-  .keen-mop{
-    width: 100% !important;
-  }
-  .mob-width{
-    min-width: 100% !important;
-  }
-.test{
-  margin-bottom: 10rem;
-}
-.z-index{
-  z-index: 10000000000000000000000000000000000000000000000000000;
-}
-.mob-show{
-  display: block !important;
-}
-.mob-min-width{
-  min-width: 100% !important;
-}
-.overlay{
-  background-color: rgba(0, 0,0,0.3);
-}
-.mob-text{
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: end;
-}
 
-.moh-hover{
-  border-radius: 1rem !important;
-}
-.mob-zoom{
-  transition: 0.5s all;
+  /* First In The Bussiness */
+  .mob-show {
+    display: block !important;
+  }
+  .first-section-left{
+    left: 5% !important;
+  }
+  .first-section-right{
+    right: 5% !important;
+  }
+
+  /* End First In The Bussiness */
 
 }
-.mob-hover:hover .mob-zoom{
-  transform: scale(1.1);
-}
-.mob-hide{
-  display: none !important;
-}
-.mob-p{
-  padding: 0 1.875rem;
-}
-.btn-width{
-  width: 70% !important;
-}
-  
 
-}
-body{
-  height: 400vh !important;
+@media (min-width: 991px) {
+  .d-none-mob {
+    display: block !important;
+  }
+  iframe {
+    min-width: 98vw;
+    min-height: 90vh !important;
+  }
 }

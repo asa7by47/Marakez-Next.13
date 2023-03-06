@@ -1,6 +1,6 @@
-.iframe {
-  width: 84.313rem !important;
-  height: 47.438rem !important;
+iframe{
+  min-width: 100vw;
+  min-height: 90vh !important;
 }
 .search {
   position: absolute;
@@ -26,30 +26,15 @@
   border: 1px solid #bababa !important;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* .hide-from-phone {
-    display: none !important;
-  } */
-  iframe{
-    min-width:35rem !important;
-    max-height: 20rem!important;
-  }
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  iframe{
-    min-width:50rem !important;
-    max-height: 35rem!important;
-  }
-
+@media only screen and (min-width: 600px) and (max-width: 990px){
+  
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width:990)    {
+.d-none-mob{
+  display: none !important;
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 }

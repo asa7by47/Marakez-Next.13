@@ -35,14 +35,38 @@ const DevelopmentSlider = () => {
     },
   });
   return (
-    <section className="p-3">
+    <section className="p-3 mt-development-mop">
         <HeaderText text="OUR DEVELOPMENTS" customColor="color-blue" />
-      <div ref={sliderRef} className="keen-slider edit  siz2">
-        <div className=" number-slide1 keen-slider__slide container  ">
-        <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide1} className=" rounded-4 zooom siz " alt="poster"  />
+      <div ref={sliderRef} className="keen-slider edit  ml-left size rounded-4">
+        <div className=" number-slide1 keen-slider__slide container  ml-left siz2">
+        <div className="position-relative overflow-hidden hoverr rounded-4 test-x">
+            <Image src={slide1} className=" rounded-4 zooom siz w-100 " alt="poster"  />
             <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons">
+              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons poster-100" >
+              <p className="text-white">
+                How to take matters to new heights is the question we answered
+                with the first high-residential buildings in West Cairo. Aeon
+                towers were mindfully designed to match the ambition of their
+                residents. 20 floors of high-end & fully serviced
+                apartments/penthouses with the extravagant skyline of Cairo as
+                their view. If shooting for the stars is ambitious, then living
+                above the stars is Aeon.
+              </p>
+              <a href="" className="text-white">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-3">
+            <h5 className="color-blue">East Cairo</h5>
+            <p className="text-muted">Retail Malls</p>
+          </div>
+        </div>
+
+        <div className=" number-slide2 keen-slider__slide container ml-left siz2">
+          <div className="position-relative overflow-hidden hoverr rounded-4 test-x">
+            <Image src={slide2} className=" rounded-4 zooom siz w-100" />
+            <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
+              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons  poster-100">
               <p className="text-white">
                 How to take matters to new heights is the question we answered
                 with the first high-residential buildings in West Cairo. Aeon
@@ -62,11 +86,12 @@ const DevelopmentSlider = () => {
             <p className="text-muted">Retail Malls</p>
           </div>
         </div>
-        <div className=" number-slide2 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide2} className="w-100 h-100 rounded-4 zooom siz" />
+
+        <div className=" number-slide4 keen-slider__slide container ml-left siz2">
+          <div className="position-relative overflow-hidden hoverr rounded-4 test-x">
+            <Image src={slide3} className=" rounded-4 zooom siz w-100" />
             <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
+              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons  poster-100">
               <p className="text-white">
                 How to take matters to new heights is the question we answered
                 with the first high-residential buildings in West Cairo. Aeon
@@ -86,11 +111,11 @@ const DevelopmentSlider = () => {
             <p className="text-muted">Retail Malls</p>
           </div>
         </div>
-        <div className=" number-slide3 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide3} className="w-100 h-100 rounded-4 zooom siz" />
+        <div className=" number-slide3 keen-slider__slide container ml-left siz2">
+          <div className="position-relative overflow-hidden hoverr rounded-4 test-x">
+            <Image src={slide4} className=" rounded-4 zooom siz w-100" />
             <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
+              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons  poster-100">
               <p className="text-white">
                 How to take matters to new heights is the question we answered
                 with the first high-residential buildings in West Cairo. Aeon
@@ -110,102 +135,7 @@ const DevelopmentSlider = () => {
             <p className="text-muted">Retail Malls</p>
           </div>
         </div>
-        <div className=" number-slide4 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide4} className="w-100 h-100 rounded-4 zooom siz" />
-            <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
-              <p className="text-white">
-                How to take matters to new heights is the question we answered
-                with the first high-residential buildings in West Cairo. Aeon
-                towers were mindfully designed to match the ambition of their
-                residents. 20 floors of high-end & fully serviced
-                apartments/penthouses with the extravagant skyline of Cairo as
-                their view. If shooting for the stars is ambitious, then living
-                above the stars is Aeon.
-              </p>
-              <a href="" className="text-white">Know More</a>
-
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-3">
-            <h5 className="color-blue">East Cairo</h5>
-            <p className="text-muted">Retail Malls</p>
-          </div>
-        </div>
-        <div className=" number-slide5 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide1} className="w-100 h-100 rounded-4 zooom siz" alt="poster" />
-            <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
-              <p className="text-white">
-                How to take matters to new heights is the question we answered
-                with the first high-residential buildings in West Cairo. Aeon
-                towers were mindfully designed to match the ambition of their
-                residents. 20 floors of high-end & fully serviced
-                apartments/penthouses with the extravagant skyline of Cairo as
-                their view. If shooting for the stars is ambitious, then living
-                above the stars is Aeon.
-              </p>
-              <a href="" className="text-white">Know More</a>
-
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-3">
-            <h5 className="color-blue">East Cairo</h5>
-            <p className="text-muted">Retail Malls</p>
-          </div>
-        </div>
-        <div className=" number-slide6 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide3} className="w-100 h-auto rounded-4 zooom siz" />
-            <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
-              <p className="text-white">
-                How to take matters to new heights is the question we answered
-                with the first high-residential buildings in West Cairo. Aeon
-                towers were mindfully designed to match the ambition of their
-                residents. 20 floors of high-end & fully serviced
-                apartments/penthouses with the extravagant skyline of Cairo as
-                their view. If shooting for the stars is ambitious, then living
-                above the stars is Aeon.
-              </p>
-              <a href="" className="text-white">Know More</a>
-
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-3">
-            <h5 className="color-blue">East Cairo</h5>
-            <p className="text-muted">Retail Malls</p>
-          </div>
-        </div>
-        <div className=" number-slide7 keen-slider__slide container ">
-          <div className="position-relative overflow-hidden hoverr rounded-4">
-            <Image src={slide4} className="w-100 h-100 rounded-4 zooom siz" />
-            <div className="position-absolute  top-0 start-0 end-0 bottom-0 hover-hide ">
-              <div className="d-flex flex-column justify-content-end h-100 pb-4 font-respons mob-container poster-100">
-              <p className="text-white">
-                How to take matters to new heights is the question we answered
-                with the first high-residential buildings in West Cairo. Aeon
-                towers were mindfully designed to match the ambition of their
-                residents. 20 floors of high-end & fully serviced
-                apartments/penthouses with the extravagant skyline of Cairo as
-                their view. If shooting for the stars is ambitious, then living
-                above the stars is Aeon.
-              </p>
-              <a href="" className="text-white">Know More</a>
-
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-3">
-            <h5 className="color-blue">East Cairo</h5>
-            <p className="text-muted">Retail Malls</p>
-          </div>
-        </div>
+      
 
 
         {loaded && instanceRef.current && (
@@ -240,8 +170,8 @@ function Arrow(props) {
       <svg
         onClick={props.onClick}
         className={`arrow ${
-          props.left ? "arrow--left" : "arrow--right"
-        } ${disabeld}   `}
+          props.left ? "arrow--left development-arrow-left" : "arrow--right development-arrow-right"
+        } ${disabeld}     `}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >

@@ -16,13 +16,31 @@
   text-decoration: none;
   width: 23%;
 }
-.h-85{
-    height: 85%;
+.h-85 {
+  height: 85%;
 }
-@media only screen and (max-width: 900px) {
-.btn-mobile{
-  padding: .2rem 1.5rem !important;
+.latest-left {
+  left: 10% !important;
 }
+.latest-right {
+  right: 10% !important;
+}
+.mob-height {
+  height: 100% !important;
+}
+@media only screen and (max-width: 990px) {
+  .btn-mobile {
+    /* padding: 1.2rem 5.5rem !important; */
+    width: 75%;
+    padding: 0.5rem 0.5rem !important;
+  }
+  .empty {
+    padding: 0 !important;
+    height: 0 !important;
+  }
+  .mob-p {
+    padding: 1.5rem 2rem !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
