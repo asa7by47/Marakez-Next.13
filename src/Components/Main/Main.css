@@ -31,10 +31,19 @@
   /* .hide-from-phone {
     display: none !important;
   } */
+  iframe{
+    min-width:35rem !important;
+    max-height: 20rem!important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 600px) {
+  iframe{
+    min-width:50rem !important;
+    max-height: 35rem!important;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
